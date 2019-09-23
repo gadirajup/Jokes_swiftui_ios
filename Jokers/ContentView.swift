@@ -25,7 +25,10 @@ struct ContentView: View {
     var body: some View {
         List {
             ForEach(jokes, id: \.setup) { joke in
-                Text(joke.setup)
+                HStack {
+                    EmojiView(for: joke.rating)
+                    Text(joke.setup)
+                }
             }
         }
     }
