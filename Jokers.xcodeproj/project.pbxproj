@@ -17,6 +17,7 @@
 		A4A307FA2338719400EE5035 /* EmojiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A307F92338719400EE5035 /* EmojiView.swift */; };
 		A4A307FD233874FF00EE5035 /* Joke+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A307FB233874FF00EE5035 /* Joke+CoreDataClass.swift */; };
 		A4A307FE233874FF00EE5035 /* Joke+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A307FC233874FF00EE5035 /* Joke+CoreDataProperties.swift */; };
+		A4B37B0F233876C6000240CF /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B37B0E233876C6000240CF /* AddView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		A4A307F92338719400EE5035 /* EmojiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiView.swift; sourceTree = "<group>"; };
 		A4A307FB233874FF00EE5035 /* Joke+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Joke+CoreDataClass.swift"; sourceTree = "<group>"; };
 		A4A307FC233874FF00EE5035 /* Joke+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Joke+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A4B37B0E233876C6000240CF /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				A4A307E22338700800EE5035 /* AppDelegate.swift */,
 				A4A307E42338700800EE5035 /* SceneDelegate.swift */,
 				A4A307E92338700800EE5035 /* ContentView.swift */,
+				A4B37B0E233876C6000240CF /* AddView.swift */,
 				A4A307F92338719400EE5035 /* EmojiView.swift */,
 				A4A307EB2338700900EE5035 /* Assets.xcassets */,
 				A4A307FB233874FF00EE5035 /* Joke+CoreDataClass.swift */,
@@ -162,6 +165,7 @@
 				A4A307E32338700800EE5035 /* AppDelegate.swift in Sources */,
 				A4A307E52338700800EE5035 /* SceneDelegate.swift in Sources */,
 				A4A307EA2338700800EE5035 /* ContentView.swift in Sources */,
+				A4B37B0F233876C6000240CF /* AddView.swift in Sources */,
 				A4A307E82338700800EE5035 /* Jokers.xcdatamodeld in Sources */,
 				A4A307FA2338719400EE5035 /* EmojiView.swift in Sources */,
 				A4A307FE233874FF00EE5035 /* Joke+CoreDataProperties.swift in Sources */,

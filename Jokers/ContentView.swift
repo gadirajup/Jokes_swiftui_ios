@@ -9,10 +9,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    @Environment(\.managedObjectContext) var moc
     
     @FetchRequest(entity: Joke.entity(), sortDescriptors: [
         NSSortDescriptor(keyPath: \Joke.setup, ascending: true)
     ]) var jokes: FetchedResults<Joke>
+    
+    @State private var showingAddJoke = false
     
     var body: some View {
         NavigationView {
@@ -23,7 +26,14 @@ struct ContentView: View {
                         Text(joke.setup)
                     }
                 }
-            }.navigationBarTitle("Vault of Laughs")
+            }
+            .navigationBarTitle("Vault of Laughs")
+            .navigationBarItems(trailing: Button("Add") {
+                self.showingAddJoke.toggle()
+            })
+            .sheet(isPresented: $showingAddJoke) {
+                AddView().environment(\.managedObjectContext, self.moc)
+            }
         }
     }
 }
