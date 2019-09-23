@@ -18,6 +18,8 @@
 		A4A307FD233874FF00EE5035 /* Joke+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A307FB233874FF00EE5035 /* Joke+CoreDataClass.swift */; };
 		A4A307FE233874FF00EE5035 /* Joke+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A307FC233874FF00EE5035 /* Joke+CoreDataProperties.swift */; };
 		A4B37B0F233876C6000240CF /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B37B0E233876C6000240CF /* AddView.swift */; };
+		A4B37B3823388047000240CF /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B37B3723388047000240CF /* ContentView2.swift */; };
+		A4B37B3A2338827A000240CF /* JokeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B37B392338827A000240CF /* JokeCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		A4A307FC233874FF00EE5035 /* Joke+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Joke+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		A4B37B0E233876C6000240CF /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		A4B37B1023387BD6000240CF /* Jokers.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Jokers.entitlements; sourceTree = "<group>"; };
+		A4B37B3723388047000240CF /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
+		A4B37B392338827A000240CF /* JokeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,8 @@
 				A4A307E22338700800EE5035 /* AppDelegate.swift */,
 				A4A307E42338700800EE5035 /* SceneDelegate.swift */,
 				A4A307E92338700800EE5035 /* ContentView.swift */,
+				A4B37B3723388047000240CF /* ContentView2.swift */,
+				A4B37B392338827A000240CF /* JokeCard.swift */,
 				A4B37B0E233876C6000240CF /* AddView.swift */,
 				A4A307F92338719400EE5035 /* EmojiView.swift */,
 				A4A307EB2338700900EE5035 /* Assets.xcassets */,
@@ -169,6 +175,8 @@
 				A4A307EA2338700800EE5035 /* ContentView.swift in Sources */,
 				A4B37B0F233876C6000240CF /* AddView.swift in Sources */,
 				A4A307E82338700800EE5035 /* Jokers.xcdatamodeld in Sources */,
+				A4B37B3A2338827A000240CF /* JokeCard.swift in Sources */,
+				A4B37B3823388047000240CF /* ContentView2.swift in Sources */,
 				A4A307FA2338719400EE5035 /* EmojiView.swift in Sources */,
 				A4A307FE233874FF00EE5035 /* Joke+CoreDataProperties.swift in Sources */,
 			);
