@@ -26,15 +26,25 @@ struct ContentView: View {
                         Text(joke.setup)
                     }
                 }
+                .onDelete(perform: removeJokes)
             }
             .navigationBarTitle("Vault of Laughs")
-            .navigationBarItems(trailing: Button("Add") {
+            .navigationBarItems(leading: EditButton(), trailing: Button("Add") {
                 self.showingAddJoke.toggle()
             })
             .sheet(isPresented: $showingAddJoke) {
                 AddView().environment(\.managedObjectContext, self.moc)
             }
         }
+    }
+    
+    func removeJokes(at offsets: IndexSet) {
+        for index in offsets {
+            let joke = jokes[index]
+            moc.delete(joke)
+        }
+        
+        try? moc.save()
     }
 }
 
