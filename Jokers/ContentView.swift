@@ -23,13 +23,15 @@ struct ContentView: View {
     ]
     
     var body: some View {
-        List {
-            ForEach(jokes, id: \.setup) { joke in
-                HStack {
-                    EmojiView(for: joke.rating)
-                    Text(joke.setup)
+        NavigationView {
+            List {
+                ForEach(jokes, id: \.setup) { joke in
+                    NavigationLink(destination: Text(joke.punchline)) {
+                        EmojiView(for: joke.rating)
+                        Text(joke.setup)
+                    }
                 }
-            }
+            }.navigationBarTitle("Vault of Laughs")
         }
     }
 }
